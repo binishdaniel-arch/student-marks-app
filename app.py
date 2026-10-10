@@ -4,7 +4,7 @@ from pymongo import MongoClient
 from pymongo.errors import PyMongoError
 
 st.set_page_config(page_title="Student Marks", page_icon="■")
-st.title("Traica Solutions - Student Marks")
+st.title("Binish Solutions - Student Marks")
 
 mongo_uri = os.getenv("MONGO_URI", "mongodb://mongodb:27017")
 client = MongoClient(mongo_uri, serverSelectionTimeoutMS=3000)
