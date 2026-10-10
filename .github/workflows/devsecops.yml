@@ -38,7 +38,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=binishdaniel-arch
-            -Dsonar.projectKey=binishdaniel-arch
+            -Dsonar.projectKey=binishdaniel-arch_student-marks-app
 
       - name: Set image tags
         id: vars
